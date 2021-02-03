@@ -1,0 +1,60 @@
+/* Banner Area */
+.site-banner {
+  /* background-image: url(/assets/background5.jpg); */
+  background-image: url(/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.site-banner .site-buttons {
+  float: right;
+}
+
+/* .site-main .site-banner::before{
+    content: "";
+    background-image: url(./assets/background2.jpg) ;
+    background-size:cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  } */
+
+.site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+  text-align: right;
+}
+
+.site-banner .site-title h3::before {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px);
+  text-align: right;
+}
+
+.site-banner .site-title h1 {
+  font-size: 4rem;
+  text-align: right;
+}
+
+.site-banner .site-title h4 {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 90rem;
+  text-align: right;
+}
+
+/* End Banner Area */

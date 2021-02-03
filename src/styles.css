@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+/* .main-container {
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:hidden;
+ }
+
+ .footer {
+  height: 50px;
+  text-align: center;
+}  */
+
+/* css variables */
+@import url(./css/partials/_variables.css);
+
+/* Global */
+@import url(./css/partials/_global.css);
+
+/* Navigation */
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* End Navigation */
+
+
